@@ -53,6 +53,7 @@ class TransactionHandler
                 $this->em->flush();
                 $this->em->commit();
             } else {
+                $this->em->rollback();
                 throw new InsufficientFundsException();
             }
         } else {
