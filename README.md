@@ -22,7 +22,6 @@ cd public && php -S localhost:8000 ./index.php
 
 Credit 1000:
 ```bash
-# credit 1000
 curl -X POST --data '<?xml version="1.0"?><operations><credit amount="1000" tid="t1" uid="account-1"></credit></operations>' http://localhost:8000/transaction
 ```
 
