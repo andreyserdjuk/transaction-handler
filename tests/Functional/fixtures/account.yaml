@@ -1,0 +1,7 @@
+App\Entity\Account:
+  account_1:
+    uid: 'account-1'
+    ballance: 0
+  account_2:
+    uid: 'account-2'
+    ballance: 10000

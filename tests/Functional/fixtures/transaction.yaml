@@ -1,0 +1,13 @@
+App\Entity\Transaction:
+  transaction-1:
+    uid: 'account-1'
+    tid: 'transaction-1'
+    amount: 10
+  transaction-2:
+    uid: 'account-1'
+    tid: 'transaction-2'
+    amount: -10
+  transaction-3:
+    uid: 'account-2'
+    tid: 'transaction-3'
+    amount: 10000
